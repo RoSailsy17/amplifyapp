@@ -5,7 +5,7 @@ const NodeLambda = () => {
     const [nodeRes, setNodeRes] = useState([])
 
     useEffect(() => {
-        fetch('https://xmk2duksybfc3t7zhsazaxtraq0aegwv.lambda-url.us-east-2.on.aws/', {method: 'GET'})
+        fetch('https://mzwucusv45zeh4xelpetpfd7ca0psrgr.lambda-url.ap-northeast-1.on.aws/', {method: 'GET'})
         .then(res => res.json())
         .then(data => {
             setNodeRes(data)
